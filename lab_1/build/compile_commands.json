@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build",
+  "command": "/usr/bin/c++  -I/home/n3tw4lk3r/programs/oop/labs/lab_1/include -std=gnu++14 -o CMakeFiles/lab1_lib.dir/src/lab_1.cpp.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/src/lab_1.cpp",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/src/lab_1.cpp"
+},
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build",
+  "command": "/usr/bin/c++  -I/home/n3tw4lk3r/programs/oop/labs/lab_1/include -std=gnu++14 -o CMakeFiles/Lab1.dir/src/main.cpp.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/src/main.cpp",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/src/main.cpp"
+},
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build",
+  "command": "/usr/bin/c++  -I/home/n3tw4lk3r/programs/oop/labs/lab_1/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock -std=gnu++17 -o CMakeFiles/run_tests.dir/tests/test_lab_1.cpp.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/tests/test_lab_1.cpp",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/tests/test_lab_1.cpp"
+},
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build/external/googletest/googlemock",
+  "command": "/usr/bin/c++  -I/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/include -I/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build/external/googletest/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build/external/googletest/googletest",
+  "command": "/usr/bin/c++  -I/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/include -I/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/n3tw4lk3r/programs/oop/labs/lab_1/build/external/googletest/googletest",
+  "command": "/usr/bin/c++  -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/include -isystem /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/n3tw4lk3r/programs/oop/labs/lab_1/external/googletest/googletest/src/gtest_main.cc"
+}
+]
