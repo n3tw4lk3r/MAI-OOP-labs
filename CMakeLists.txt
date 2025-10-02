@@ -4,4 +4,7 @@ project(labs)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+add_subdirectory(external/googletest)
+
 add_subdirectory(lab_1)
+add_subdirectory(lab_2)
