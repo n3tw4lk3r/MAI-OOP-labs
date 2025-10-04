@@ -12,6 +12,7 @@ public:
     Hex();
     Hex(const std::string& hexString);
     Hex(const unsigned char* hexCString);
+    Hex(size_t n, unsigned char defaultValue = 0);
     Hex(const Hex& other);
     Hex(Hex&& other) noexcept;
     virtual ~Hex() noexcept;

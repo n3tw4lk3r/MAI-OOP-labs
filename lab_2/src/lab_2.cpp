@@ -47,6 +47,15 @@ Hex::Hex(const unsigned char* hexCString) :
     }
 }
 
+Hex::Hex(size_t n, unsigned char defaultValue) :
+    size(n),
+    data(new unsigned char[size])
+{
+    for (std::size_t i = 0; i < size; ++i) {
+        data[i] = defaultValue;
+    }
+}
+
 Hex::Hex(const Hex& other) :
     size(other.size),
     data(new unsigned char[size])
