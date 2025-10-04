@@ -12,7 +12,7 @@ TEST(LAB2Test, TestConstructors) {
     }
     {
         // String constructor
-        const size_t HEX_A_INDEX = 10;
+        const std::size_t HEX_A_INDEX = 10;
         Hex hex1("1A3F");
         ASSERT_EQ(hex1.getSize(), 4);
         ASSERT_EQ(hex1.getCharByIndex(0), '1' - '0');
@@ -28,7 +28,7 @@ TEST(LAB2Test, TestConstructors) {
     }
     {
         // Move constructor
-        const size_t HEX_A_INDEX = 10;
+        const std::size_t HEX_A_INDEX = 10;
         Hex hex1("FF");
         Hex hex2(std::move(hex1));
         ASSERT_EQ(hex2.getSize(), 2);

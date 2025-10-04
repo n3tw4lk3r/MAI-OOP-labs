@@ -19,6 +19,7 @@ Hex::Hex(const std::string& hexString) :
     data(new unsigned char[size])
 {
     if (hexString.empty()) {
+        delete[] data;
         throw std::invalid_argument("Empty hexadecimal string.");
     }
     for (std::size_t i = 0; i < size; ++i) {
@@ -177,7 +178,7 @@ unsigned char Hex::getCharByIndex(const std::size_t index) {
     return data[size - 1 - index];
 }
 unsigned char Hex::convertChar(char c) {
-    const size_t HEX_A_INDEX = 10;
+    const std::size_t HEX_A_INDEX = 10;
     if (c >= '0' && c <= '9') {
         return c - '0';
     }
